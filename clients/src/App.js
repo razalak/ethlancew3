@@ -38,7 +38,7 @@ function App() {
     const data = document.querySelector("#value").value;
     await contract.methods
       .setter(data)
-      .send({ from: "0x492b0A9d885051C47bE0A60dCab71F8BCc287d5D" });
+      .send({ from: "0x28Ffa6Ed9A3094db45A2aB3535569aA3892a05C0" });
     window.location.reload();
   }
   return (
